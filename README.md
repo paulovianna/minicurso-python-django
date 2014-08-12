@@ -1,4 +1,4 @@
 minicurso-python-django
 =======================
 
-Minicurso Python/Django - Jornada Acadêmica Sistema de Informação
+Minicurso Python/Django - JASI (Jornada Acadêmica Sistema de Informação)
