@@ -305,13 +305,14 @@ slides > slide:not(.nobackground):before {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
-  -webkit-background-size: 30px 30px;
-  -moz-background-size: 30px 30px;
-  -o-background-size: 30px 30px;
-  background-size: 30px 30px;
+  background: url(../../images/logo-ufsm.png) no-repeat 0 50%;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  -o-background-size: 50px 50px;
+  background-size: 50px 50px;
   padding-left: 40px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   line-height: 1.9;
 }
 /* line 147, ../scss/default.scss */
@@ -1487,4 +1488,12 @@ aside.gdbar img {
 
 .green-background{
   background-color: #103e2e;
+}
+
+.corpo{
+  margin-top: 200px;
+}
+
+.centro{
+  text-align: center;
 }
