@@ -141,6 +141,113 @@ URL: https://code.google.com/p/io-2012-slides
     </hgroup>
   </slide>
 
+  <slide>
+    <hgroup>
+      <h2>Python</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/python-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Loops</h2><br>
+        <pre class="prettyprint" data-lang="python">
+          <b>for abc in range(5):</b>
+              print abc
+          <br>
+          <b>while abc < 5:</b>
+              print abc
+              abc += 1
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Python</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/python-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Funções</h2><br>
+        <pre class="prettyprint" data-lang="python">
+          <b>def soma(a,b):</b>
+              return a + b
+          <br>
+          <b>print soma(2,2)</b>
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Python</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/python-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Classes</h2><br>
+        <pre class="prettyprint" data-lang="python">
+          <b>class Pessoa(object):
+             def __init__(self,nome):
+                 self.nome = nome 
+             def apresentacao(self):
+                 print "Olá, meu nome é " + self.nome
+          </b>
+          <b>
+         p = Pessoa("Fulano")
+         p.apresentacao()
+          </b>
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Python</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/python-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Dicionários</h2><br>
+        <pre class="prettyprint" data-lang="python">
+          <b>
+          dic = {
+              "municipio": "Frederico Westphalen",
+              "estado": "Rio Grande do Sul",
+              "pais": "Brasil",
+              "populacao": "30.251"
+          }
+          print dic["municipio"]
+          </b>
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Python</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/python-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Listas</h2><br>
+        <pre class="prettyprint" data-lang="python">
+          <b>
+          dic = ["Frederico Westphalen", "Rio Grande do Sul", "30.251"]
+          <br>
+          for d in dic:
+            print d
+          </b>
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide class="logoslide green-background">
+    <article class="flexbox vcenter">
+      <span><img src="images/python-logo.png"></span><br><br><br>
+      <h2 style="color:white;">Mostre-me rodando!</h2>
+    </article>
+  </slide>
+
   <slide class="title-slide segue nobackground">
     <aside class="gdbar"><img src="images/django-logo-large.png"></aside>
     <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
