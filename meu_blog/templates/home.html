@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Blog</title>
+</head>
+<body>
+    <h1>Meu Blog</h1>
+    {% for p in posts %}
+        <h3>{{ p.titulo }}</h3>
+        <p>{{ p.conteudo }}</p>
+    {% endfor %}
+</body>
+</html>

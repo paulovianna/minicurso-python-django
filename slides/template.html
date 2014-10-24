@@ -323,8 +323,40 @@ URL: https://code.google.com/p/io-2012-slides
     <hgroup class="auto-fadein corpo">
       <h2>Instalação</h2><br>
         <pre class="prettyprint">
-          <p>$ sudo apt-get install python-pip (Debian/Ubuntu) <br> https://pip.pypa.io/en/latest/installing.html</p> 
-          <p>$ pip install Django</p>
+          <p>$ sudo apt-get install python-virtualenv (já instalado)</p>
+          <p>$ sudo apt-get install libmysqlclient</p>
+          <p>$ sudo apt-get install python-dev</p>
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Django</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/django-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Instalação</h2><br>
+        <pre class="prettyprint">
+          <p>$ mkdir minicurso</p>
+          <p>$ virtualenv venv</p>
+          <p>$ source venv/bin/activate</p>
+        </pre>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Django</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/django-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Instalação</h2><br>
+        <pre class="prettyprint">
+          <p>$ pip install django</p>
+          <p>$ pip install mysql-python</p>
         </pre>
     </hgroup>
   </slide>
@@ -540,7 +572,8 @@ URL: https://code.google.com/p/io-2012-slides
     <hgroup class="auto-fadein corpo">
       <h2>Criando meu banco de dados</h2><br>
         <pre class="prettyprint">
-          <p>$ python manage.py syncdb</p>
+          <p>$ python manage.py makemigrations posts</p>
+          <p>$ python manage.py migrate</p>
         </pre>
     </hgroup>
   </slide>
