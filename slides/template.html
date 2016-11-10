@@ -42,6 +42,17 @@ URL: https://code.google.com/p/io-2012-slides
     </hgroup>
   </slide>
 
+  <slide class="logocompany">
+    <h2>Paulo Henrique Vianna</h2>
+    <br>
+    <p>Analista de Tecnologia da Informação</p>
+    <p>Programador Web e Administrador de Servidores</p>
+    <article class="flexbox vcenter">
+      <span><img src="images/ufsm.jpg"></span>
+      <span><img src="images/innovare-web.png"></span>
+    </article>
+  </slide>
+
   <slide>
     <hgroup>
       <h2>Python</h2>
@@ -323,8 +334,7 @@ URL: https://code.google.com/p/io-2012-slides
     <hgroup class="auto-fadein corpo">
       <h2>Instalação</h2><br>
         <pre class="prettyprint">
-          <p>$ sudo apt-get install python-virtualenv (já instalado)</p>
-          <p>$ sudo apt-get install libmysqlclient</p>
+          <p>$ sudo apt-get install python-virtualenv</p>
           <p>$ sudo apt-get install python-dev</p>
         </pre>
     </hgroup>
@@ -356,7 +366,6 @@ URL: https://code.google.com/p/io-2012-slides
       <h2>Instalação</h2><br>
         <pre class="prettyprint">
           <p>$ pip install django</p>
-          <p>$ pip install mysql-python</p>
         </pre>
     </hgroup>
   </slide>
@@ -398,7 +407,11 @@ URL: https://code.google.com/p/io-2012-slides
     </article>
   </slide>
 
-  <slide class="fill nobackground" style="background-image: url(images/como-django-trabalha.jpeg)">
+  <slide class="fill nobackground" style="background-image: url(images/mtv1.png)">
+  </slide>
+
+  <slide style="text-align:center;">
+    <img style="height:100%;" src="images/mtv2.png">
   </slide>
 
   <slide>
@@ -532,7 +545,7 @@ URL: https://code.google.com/p/io-2012-slides
       <ul class="build">
         <li>Modificar o arquivo settings.py para inserir a nova app</li>
         <li>Um projeto normalmente tem várias apps</li>
-        <li>Existem MUITAS apps com funções genéricas Open Source <br><br><a>http://www.djangopackages.com/</a></li>
+        <li>Existem MUITAS apps com funções genéricas Open Source <br><br><a href="http://www.djangopackages.com/">http://www.djangopackages.com/</a></li>
       </ul>
     </hgroup>
   </slide>
@@ -614,8 +627,21 @@ URL: https://code.google.com/p/io-2012-slides
       <ul class="build">
         <li>Onde você pode ver todas as apps registradas e os CRUDs dos models</li>
         <li>Você pode personalizar a interface administrativa para colocar outras funções que você desejar</li>
-        <li>Precisa habilitar no urls.py e no settings.py</li>
       </ul>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Django</h2>
+    </hgroup>
+    <aside class="gdbar"><img src="images/django-logo-large.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein corpo">
+      <h2>Criando Super Usuário</h2><br>
+        <pre class="prettyprint">
+          <p>python manage.py createsuperuser --username admin --email admin@admin.br</p>
+        </pre>
     </hgroup>
   </slide>
   
@@ -680,19 +706,14 @@ URL: https://code.google.com/p/io-2012-slides
       <h3><a href="https://www.djangopackages.com/" target="_blank">djangopackages.com</a></h3>
       <h3><a href="http://gettingstartedwithdjango.com/" target="_blank">gettingstartedwithdjango.com</a></h3>
       <h3><a href="https://github.com/paulovianna/minicurso-python-django" target="_blank">github.com/paulovianna/minicurso-python-django</a></h3>
-      <h3><a href="http://paulovianna.github.io/minicurso-python-django/" target="_blank">paulovianna.github.io/minicurso-python-django</a></h3>
     </article>
   </slide>
 
   <slide class="thank-you-slide segue nobackground">
-    <aside class="gdbar right"><img src="images/logo-ufsm-cores.png"></aside>
     <article class="flexbox vleft auto-fadein">
       <h2>&lt;Obrigado!&gt;</h2>
-      <p>Núcleo Setorial de Informática - UFSM/FW</p>
+      <p>paulo@innovareweb.com.br</p>
     </article>
-    <p class="auto-fadein" data-config-contact>
-      <!-- populated from slide_config.json -->
-    </p>
   </slide>
 
   <slide class="backdrop"></slide>

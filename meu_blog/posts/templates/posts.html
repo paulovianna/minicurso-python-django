@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meus Posts</title>
+</head>
+<body>
+	<h1>App Posts</h1>
+	<h3>Este template pertence a App Posts</h3>
+
+	<ul>
+	{% for p in posts %}
+		<li><b><a href="/post/{{ p.id }}">{{ p.titulo }}</a></b> - Categoria: {{ p.categoria }}</li>
+		<p>{{ p.conteudo }}</p>
+	{% endfor %}
+	</ul>
+</body>
+</html>

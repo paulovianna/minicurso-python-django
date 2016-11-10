@@ -305,7 +305,6 @@ slides > slide:not(.nobackground):before {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/logo-ufsm.png) no-repeat 0 50%;
   -webkit-background-size: 50px 50px;
   -moz-background-size: 50px 50px;
   -o-background-size: 50px 50px;
@@ -1214,6 +1213,11 @@ article.smaller q:before, article.smaller q:after {
 .logoslide img {
   width: 383px;
   height: 92px;
+}
+
+.logocompany img {
+  width: 300px;
+  padding-left: 50px;
 }
 
 /* line 809, ../scss/default.scss */

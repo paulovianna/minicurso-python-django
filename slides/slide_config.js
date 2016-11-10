@@ -2,7 +2,7 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Minicurso Python/Django',
-    subtitle: 'II JASI - Jornada Acadêmica de Sistemas de Informação',
+    subtitle: 'VII EATI - Encontro Anual de Tecnologia da Informação',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
@@ -22,12 +22,8 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Iulisloi Zacarias',
-    company: 'Universidade Federal de Santa Maria',
-    github: 'https://github.com/izacarias'
-  }, {
     name: 'Paulo Henrique Vianna',
-    company: 'Universidade Federal de Santa Maria',
+    company: 'Universidade Federal de Santa Maria - Innovare Web',
     github: 'https://github.com/paulovianna'
   }]
 };

@@ -1,6 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
-from posts.models import Post
 
-def home(request):
-    posts = Post.objects.all()
-    return render(request, 'home.html',{'posts': posts})
+def hello(request):
+    return HttpResponse('<h1>Django</h1><h3>Hello EATI 2016</h3>')
+
+def template(request):
+    return render(request, 'template.html',{})
